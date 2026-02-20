@@ -8,20 +8,20 @@ Learning.
 
 The goal was to:
 
--   Analyze historical customer churn behavior\
--   Identify key churn drivers\
--   Build a predictive model for future churners\
+-   Analyze historical customer churn behavior
+-   Identify key churn drivers
+-   Build a predictive model for future churners
 -   Visualize high-risk customers to support retention strategies
 
 ------------------------------------------------------------------------
 
 ## 🛠 Tech Stack
 
--   **SQL Server** -- ETL & Data Preparation\
--   **Power BI** -- Dashboard Development & KPI Analysis\
--   **Python (Jupyter Notebook)** -- Machine Learning\
--   **Pandas & NumPy** -- Data Processing\
--   **Scikit-learn** -- Random Forest Model\
+-   **SQL Server** -- ETL & Data Preparation
+-   **Power BI** -- Dashboard Development & KPI Analysis
+-   **Python (Jupyter Notebook)** -- Machine Learning
+-   **Pandas & NumPy** -- Data Processing
+-   **Scikit-learn** -- Random Forest Model
 -   **Matplotlib & Seaborn** -- Visualization
 
 ------------------------------------------------------------------------
@@ -30,8 +30,8 @@ The goal was to:
 
 ### 1️⃣ Data Engineering (SQL)
 
--   Created staging and production tables\
--   Cleaned null values and standardized categorical variables\
+-   Created staging and production tables
+-   Cleaned null values and standardized categorical variables
 -   Built analytical views for BI consumption:
     -   `vw_ChurnData`
     -   `vw_JoinData`
@@ -42,12 +42,12 @@ The goal was to:
 
 Developed interactive dashboards including:
 
--   Total Customers\
--   Total Churn & Churn Rate\
--   New Joiners\
--   Demographic Analysis\
--   Contract & Payment Method Insights\
--   Geographic Distribution\
+-   Total Customers
+-   Total Churn & Churn Rate
+-   New Joiners
+-   Demographic Analysis
+-   Contract & Payment Method Insights
+-   Geographic Distribution
 -   Service Usage Impact
 
 ------------------------------------------------------------------------
@@ -61,10 +61,10 @@ Developed interactive dashboards including:
 
 #### 🔝 Top Churn Drivers Identified:
 
--   Contract Type\
--   Total Revenue\
--   Total Charges\
--   Monthly Charge\
+-   Contract Type
+-   Total Revenue
+-   Total Charges
+-   Monthly Charge
 -   Tenure in Months
 
 ------------------------------------------------------------------------
@@ -86,32 +86,36 @@ costs.
 
 ------------------------------------------------------------------------
 
-## 📊 Dashboard Preview
+### Power BI Dashboard
 
-*Add your dashboard screenshots inside the images folder and they will
-appear here.*
+The interactive Power BI dashboard was developed to analyze churn metrics and high-risk customers.  
+Due to file size constraints, the `.pbix` file is not included in this repository.  
+
+Dashboard previews are available in the **images/** folder.
 
 ------------------------------------------------------------------------
 
 ## 📁 Repository Structure
 
-customer-churn-analysis/ │ ├── notebook/ │ └── churn_prediction.ipynb │
-├── powerbi/ │ └── churn_dashboard.pbix │ ├── images/ │ ├──
-summary_dashboard.png │ └── churn_prediction_page.png │ ├── data/ │ └──
-Predictions.csv │ ├── requirements.txt │ └── README.md
+
+
+- notebook/
+  - churn_prediction.ipynb
+- PowerBI_images/
+  - summary_dashboard.png
+  - churn_prediction_page.png
+- Data/
+  - Prediction_data.csv
+  - Predictions.csv
+- requirements.txt
+- README.md
 
 ------------------------------------------------------------------------
 
 ## 🚀 Future Enhancements
 
--   ROC-AUC evaluation\
--   Threshold tuning\
--   Model comparison (Logistic Regression / XGBoost)\
+-   ROC-AUC evaluation
+-   Threshold tuning
+-   Model comparison (Logistic Regression / XGBoost)
 -   Deployment using Streamlit or API
 
-------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-**Sarthak R**\
-Data Analyst \| SQL \| Power BI \| Python
